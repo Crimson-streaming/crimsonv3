@@ -3,23 +3,51 @@
   "short_name": "Crimson",
   "icons": [
     {
-      "src": "../img/logo-iphone.png",
+      "src": "/img/logo-iphone.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "../img/logo-iphone.png",
+      "src": "/img/logo-iphone.png",
       "sizes": "512x512",
       "type": "image/png"
     }
   ],
-  "start_url": "../index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#000000",
-  "description": "Une plateforme de streaming innovante pour films, séries et anime.",
+  "description": "Une plateforme de streaming innovante pour films, séries et anime, offrant une expérience de visionnage exceptionnelle.",
   "lang": "fr",
   "scope": "/",
   "orientation": "portrait",
-  "categories": ["divertissement", "streaming", "films", "séries", "anime"]
+  "categories": ["Divertissement", "Streaming", "Films", "Séries", "Anime"],
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/img/logo-iphone.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo-iphone.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo-iphone.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html?source=pwa",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000",
+  "description": "Une plateforme de streaming innovante pour films, séries et anime, offrant une expérience de visionnage exceptionnelle.",
+  "lang": "fr",
+  "scope": "/",
+  "orientation": "portrait",
+  "categories": ["Divertissement", "Streaming", "Films", "Séries", "Anime"],
+  "dir": "ltr"
 }
